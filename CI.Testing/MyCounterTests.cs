@@ -7,35 +7,35 @@
     [TestFixture]
     public class MyCounterTests
     {
-        private MyCounter myCounter;
+        private CounterLogic _counter;
 
         [SetUp]
         public void InitBusinessLogic()
         {
-            myCounter = new MyCounter(100);
+            _counter = new CounterLogic(100);
         }
 
         [Test]
         public void BusinessLogicDecrementation()
         {
-            myCounter.Decrement();
+            _counter.Decrement();
 
             // Assert
-            Assert.AreEqual(99, myCounter.Counter);
+            Assert.AreEqual(99, _counter.Counter);
         }
 
         [Test]
         public void BusinessLogicIncrementation()
         {
-            myCounter.Increment();
-            Assert.AreEqual(101, myCounter.Counter);
+            _counter.Increment();
+            Assert.AreEqual(101, _counter.Counter);
         }
 
         [Test]
         public void BusinessLogicInstantiation()
         {
 
-            Assert.AreEqual(100, myCounter.Counter);
+            Assert.AreEqual(100, _counter.Counter);
         }
     }
 }

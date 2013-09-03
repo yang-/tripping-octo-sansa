@@ -7,3 +7,4 @@
 /CIBackend/obj/
 /CI.Testing/bin/
 /CI.Testing/obj/
+*.suo

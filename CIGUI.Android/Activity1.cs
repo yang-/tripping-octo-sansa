@@ -1,38 +1,24 @@
-﻿using System;
-
-using Android.App;
-using Android.Content;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using Android.OS;
-
-using CIBackend;
-
-namespace CIGUI.Android
+﻿namespace CIGUI.Android
 {
+    using CIBackend;
+
+    using global::Android.App;
+    using global::Android.OS;
+    using global::Android.Widget;
+
     [Activity(Label = "CIGUI.Android", MainLauncher = true, Icon = "@drawable/icon")]
     public class Activity1 : Activity
     {
-        #region Private Variables
-        // Create a new Business Logic Module and set the initial counter value to 100 
-        MyCounter myCounter = new MyCounter(100);
-        #endregion
-
-        #region Computed Properties
         /// <summary>
-        /// Gets the backend Business Logic Module that will provide access to all common shared functions and
-        /// properties for this mobile enterprise application
+        ///   Gets the backend Business Logic Module that will provide access to all common shared functions and
+        ///   properties for this mobile enterprise application
         /// </summary>
-        public MyCounter MyCounter{
-            get { return myCounter; }
-        }
-        #endregion
+        public CounterLogic Counter { get; private set; }
 
-        #region Override Methods
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
+            Counter = new CounterLogic(100);
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
@@ -42,9 +28,7 @@ namespace CIGUI.Android
             Button button = FindViewById<Button>(Resource.Id.MyButton);
 
             // Use the Business Logic Module to decrement the counter and display
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", MyCounter.Decrement()); };
+            button.Click += delegate { button.Text = string.Format("{0} clicks!", Counter.Decrement()); };
         }
-        #endregion
     }
 }
-

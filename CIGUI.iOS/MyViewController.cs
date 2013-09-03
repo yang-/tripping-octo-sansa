@@ -1,27 +1,24 @@
-using System;
-using MonoTouch.UIKit;
-using System.Drawing;
-
-using CIBackend;
-
 namespace CIGUI.iOS
 {
+    using System;
+    using System.Drawing;
+
+    using CIBackend;
+
+    using MonoTouch.UIKit;
+
     public class MyViewController : UIViewController
     {
-        #region Private Variables
+        private readonly float buttonHeight = 50;
+        private readonly float buttonWidth = 200;
+        private readonly CounterLogic _counter;
         private UIButton button;
-        private MyCounter myCounter;
-        private float buttonWidth = 200;
-        private float buttonHeight = 50;
-        #endregion
 
-        #region Constructors
         public MyViewController()
         {
+            _counter = new CounterLogic();
         }
-        #endregion
 
-        #region Override Methods
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
@@ -40,18 +37,15 @@ namespace CIGUI.iOS
 
             button.SetTitle("Click me", UIControlState.Normal);
 
-            button.TouchUpInside += (object sender, EventArgs e) =>
-            {
-                button.SetTitle(String.Format("clicked {0} times", 1), UIControlState.Normal);
+            button.TouchUpInside += (object sender, EventArgs e) =>{
+                _counter.Increment();
+                button.SetTitle(String.Format("clicked {0} times", _counter.Counter), UIControlState.Normal);
             };
 
             button.AutoresizingMask = UIViewAutoresizing.FlexibleWidth | UIViewAutoresizing.FlexibleTopMargin |
-                UIViewAutoresizing.FlexibleBottomMargin;
+                                      UIViewAutoresizing.FlexibleBottomMargin;
 
             View.AddSubview(button);
         }
-        #endregion
-
     }
 }
-

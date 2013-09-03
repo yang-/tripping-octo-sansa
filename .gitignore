@@ -1,0 +1,9 @@
+*.userprefs
+/CIGUI.Android/obj/
+/CIGUI.Android/bin/
+/CIGUI.iOS/obj/
+/CIGUI.iOS/bin/
+/CIBackend/bin/
+/CIBackend/obj/
+/CI.Testing/bin/
+/CI.Testing/obj/

@@ -80,6 +80,10 @@
     <ConsolePause>false</ConsolePause>
     <CodesignKey>iPhone Distribution: Thomas Opgenorth</CodesignKey>
     <IpaPackageName />
+    <CodesignProvision>E5A51957-A342-4BC7-8E29-055A949EC641</CodesignProvision>
+    <MtouchI18n />
+    <MtouchArch>ARMv7</MtouchArch>
+    <BuildIpa>true</BuildIpa>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
     <DebugType>none</DebugType>

@@ -8,3 +8,4 @@
 /CI.Testing/bin/
 /CI.Testing/obj/
 *.suo
+/CIGUI.iOS/.DS_Store

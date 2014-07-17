@@ -34,9 +34,9 @@
 	</array>
 	<key>CFBundleDisplayName</key>
 	<string>Continuous Integration</string>
-	<key>CFBundleIdentifier</key>
-	<string>com.xamarin.docs.continuousintegration</string>
 	<key>CFBundleVersion</key>
 	<string>01.00</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.quantilus.HRMobile_iOS</string>
 </dict>
 </plist>

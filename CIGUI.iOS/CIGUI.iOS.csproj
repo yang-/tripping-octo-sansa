@@ -3,8 +3,6 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{D8D9D482-63D9-4EFA-B191-229C4D1DDDD3}</ProjectGuid>
     <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
@@ -68,8 +66,12 @@
     <MtouchDebug>true</MtouchDebug>
     <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchLink>Full</MtouchLink>
-    <MtouchI18n />
+    <MtouchI18n>
+    </MtouchI18n>
     <MtouchArch>ARMv7</MtouchArch>
+    <BuildIpa>true</BuildIpa>
+    <IpaPackageName>
+    </IpaPackageName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>none</DebugType>
@@ -78,10 +80,11 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
-    <CodesignKey>iPhone Distribution: Thomas Opgenorth</CodesignKey>
-    <IpaPackageName />
-    <CodesignProvision>E5A51957-A342-4BC7-8E29-055A949EC641</CodesignProvision>
-    <MtouchI18n />
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <IpaPackageName>
+    </IpaPackageName>
+    <MtouchI18n>
+    </MtouchI18n>
     <MtouchArch>ARMv7</MtouchArch>
     <BuildIpa>true</BuildIpa>
   </PropertyGroup>
@@ -94,8 +97,10 @@
     <ConsolePause>False</ConsolePause>
     <CodesignKey>iPhone Distribution: Thomas Opgenorth</CodesignKey>
     <BuildIpa>True</BuildIpa>
-    <IpaPackageName />
-    <MtouchI18n />
+    <IpaPackageName>
+    </IpaPackageName>
+    <MtouchI18n>
+    </MtouchI18n>
     <MtouchArch>ARMv7</MtouchArch>
     <CodesignProvision>E5A51957-A342-4BC7-8E29-055A949EC641</CodesignProvision>
   </PropertyGroup>

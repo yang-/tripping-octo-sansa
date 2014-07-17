@@ -48,6 +48,7 @@ namespace CIGUI.iOS
             View.AddSubview(button);
 
 			// Jenkins Test
+			// Jenkins will automatically build after you commit & push your code on git.
         }
     }
 }

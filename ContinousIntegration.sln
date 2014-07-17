@@ -49,6 +49,7 @@ Global
 		{1931AA33-0D1F-4FBB-91D5-F2A703D2462C}.Business Logic Build|Any CPU.Build.0 = Business Logic Build|Any CPU
 		{1931AA33-0D1F-4FBB-91D5-F2A703D2462C}.Business Logic Build|Any CPU.Deploy.0 = Business Logic Build|Any CPU
 		{1931AA33-0D1F-4FBB-91D5-F2A703D2462C}.Business Logic Build|iPhone.ActiveCfg = Business Logic Build|Any CPU
+		{1931AA33-0D1F-4FBB-91D5-F2A703D2462C}.Business Logic Build|iPhone.Build.0 = Business Logic Build|Any CPU
 		{1931AA33-0D1F-4FBB-91D5-F2A703D2462C}.Business Logic Build|iPhoneSimulator.ActiveCfg = Business Logic Build|Any CPU
 		{1931AA33-0D1F-4FBB-91D5-F2A703D2462C}.Business Logic Build|iPhoneSimulator.Build.0 = Business Logic Build|Any CPU
 		{1931AA33-0D1F-4FBB-91D5-F2A703D2462C}.Business Logic Build|Mixed Platforms.ActiveCfg = Business Logic Build|Any CPU
@@ -56,6 +57,7 @@ Global
 		{1931AA33-0D1F-4FBB-91D5-F2A703D2462C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1931AA33-0D1F-4FBB-91D5-F2A703D2462C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1931AA33-0D1F-4FBB-91D5-F2A703D2462C}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{1931AA33-0D1F-4FBB-91D5-F2A703D2462C}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{1931AA33-0D1F-4FBB-91D5-F2A703D2462C}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
 		{1931AA33-0D1F-4FBB-91D5-F2A703D2462C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
 		{1931AA33-0D1F-4FBB-91D5-F2A703D2462C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
@@ -116,12 +118,14 @@ Global
 		{D7EB9AFC-B366-408D-87D1-683E5295BED0}.Business Logic Build|Any CPU.ActiveCfg = Release|Any CPU
 		{D7EB9AFC-B366-408D-87D1-683E5295BED0}.Business Logic Build|Any CPU.Build.0 = Release|Any CPU
 		{D7EB9AFC-B366-408D-87D1-683E5295BED0}.Business Logic Build|iPhone.ActiveCfg = Release|Any CPU
+		{D7EB9AFC-B366-408D-87D1-683E5295BED0}.Business Logic Build|iPhone.Build.0 = Release|Any CPU
 		{D7EB9AFC-B366-408D-87D1-683E5295BED0}.Business Logic Build|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{D7EB9AFC-B366-408D-87D1-683E5295BED0}.Business Logic Build|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{D7EB9AFC-B366-408D-87D1-683E5295BED0}.Business Logic Build|Mixed Platforms.Build.0 = Release|Any CPU
 		{D7EB9AFC-B366-408D-87D1-683E5295BED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D7EB9AFC-B366-408D-87D1-683E5295BED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7EB9AFC-B366-408D-87D1-683E5295BED0}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{D7EB9AFC-B366-408D-87D1-683E5295BED0}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{D7EB9AFC-B366-408D-87D1-683E5295BED0}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
 		{D7EB9AFC-B366-408D-87D1-683E5295BED0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
 		{D7EB9AFC-B366-408D-87D1-683E5295BED0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU

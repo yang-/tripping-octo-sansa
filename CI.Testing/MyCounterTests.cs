@@ -21,7 +21,7 @@
             _counter.Decrement();
 
             // Assert
-            Assert.AreEqual(100, _counter.Counter);
+            Assert.AreEqual(99, _counter.Counter);
         }
 
         [Test]
